@@ -111,6 +111,8 @@
 
 - [实用网站与工具](Tool/awesome-sites.md)
 
+- [人为提升服务器CPU、内存、硬盘使用率](https://www.wyr.me/post/650##toc3-12)
+
 ## 程序人生
 
 - [请用一句话证明你是程序员](Life/how-to-prove-that-you-are-a-programmer.md)
