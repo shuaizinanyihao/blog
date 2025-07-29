@@ -83,7 +83,7 @@
 - [访问者模式(Visitor Pattern)——操作复杂对象结构]()
 
 
-## 技术调研and问题排查
+## 技术调研
 
 **技术调研:**
 - [MongoDB -> kafka 高性能实时同步方案](ProblemResearch/data-from-mongodb-to-kafka.md)
