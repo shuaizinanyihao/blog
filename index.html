@@ -9,9 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <meta name="referrer" content="no-referrer"/>
     <meta name="description" content="Description">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
     <!-- 支持 LaTex 语言 -->
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
@@ -52,7 +50,7 @@
         .markdown-section code {
             border-radius: 2px;
             font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
-            font-size: 16px !important;
+            font-size: 13px !important;
             margin: 0 2px;
             padding: 3px 5px;
             white-space: nowrap;
@@ -84,18 +82,18 @@
 
         aside.sidebar ul li p {
             padding-left: 22px;
-            font-size: 18px;
+            font-size: 16px;
             font-weight: normal;
         }
 
         aside.sidebar ul li a {
             line-height: 35px;
-            font-size: 14px;
+            font-size: 12px;
             padding: 3px 0 3px 22px;
         }
 
         aside.sidebar ul li.active > a {
-            font-size: 16px !important;
+            font-size: 14px !important;
         }
 
         /*aside.sidebar ul li.active > a:before {*/
@@ -113,26 +111,6 @@
 
         /*以上调侧边栏*/
 
-        /*h1 span{
-          display:inline-block;
-          background: rgb(66, 185, 131);
-          color:#ffffff;
-          padding:  10px  16px;
-          border-radius:5px;
-          box-shadow: 1px 1px 3px black;
-        }*/
-        #main h2 span {
-            color: #18b566 !important;
-        }
-
-        #main h3 span {
-            color: #089acc !important;
-        }
-
-        #main h4 span {
-            color: #FF9700 !important;
-        }
-
         /*代码块背景*/
         p code {
             background-color: rgb(255, 255, 255) !important;
@@ -140,7 +118,7 @@
 
         .markdown-section p.tip,
         .markdown-section tr:nth-child(1n) {
-            font-size: 16px !important;
+            font-size: 14px !important;
         }
 
         .markdown-section h1 {
@@ -358,12 +336,12 @@
 
 </head>
 <body>
-<div id="app">代码改变世界</div>
+<div id="app"></div>
 <script>
     window.$docsify = {
         name: "帅子",
-        nameLink: 'https://shuaizinanyihao.github.io/blog/#/README',
-        //repo: 'wugenqiang/NoteBook',
+        nameLink: '/#/README',
+        //repo: '',
         //loadSidebar: true,//_sidebar.md如果为真，则从_sidebar.md文件加载边栏，否则从指定的路径加载
         themeColor: '#4B5CC4',
         auto2top: true,  //当路线改变时,滚动到屏幕的顶部
@@ -375,7 +353,6 @@
         coverpage: true,
         //subMaxLevel: 6,//在自定义边栏中添加目录（TOC)
         externalLinkTarget: '_blank', //外链打开方式：_blank表示在新标签页中打开
-        onlyCover: true,
         topMargin: 60,//调整top
         //executeScript: true,//执行页面上的脚本，仅解析第一个脚本标签
         search: {
@@ -440,16 +417,16 @@
         language:'chinese'
       },
       tabs: {
-        persist: true, // default
-        sync: true, // default
-        theme: 'classic', // default
-        tabComments: true, // default
-        tabHeadings: true // default
+        persist: true,
+        sync: true,
+        theme: 'classic',
+        tabComments: true,
+        tabHeadings: true
       },
     }
 </script>
-<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/search.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/zoom-image.min.js"></script>
 <!-- 字符统计 -->
 <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
@@ -459,17 +436,19 @@
 <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
 <!-- tabs -->
 <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+
 <!-- 添加 PDF 页面展示功能 -->
 <!-- PDFObject.js is a required dependency of this plugin -->
-<!--<script src="//cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script>-->
 <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/pdfobject.min.js"></script>
 <!-- This is the source code of the pdf embed plugin -->
 <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/docsify-pdf-embed.js"></script>
+
 <!-- 复制代码-->
 <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/docsify-copy-code.min.js"></script>
 <!-- 回到顶部功能 -->
 <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/jquery.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/jquery.goup.js"></script>
+
 <script type="text/javascript">
     $(document).ready(function () {
         $.goup({
@@ -482,10 +461,26 @@
     });
 </script>
 
-<!-- 代码高亮 -->
-<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-sql.min.js"></script>
+<!-- 代码块样式优化-->
+<script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-cpp.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-css.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-docker.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-java.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-javascript.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-json.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-latex.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-sql.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-markdown.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-bash.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-php.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-scala.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-nginx.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-json.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-markdown.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-python.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/js/prism-yaml.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/wugenqiang/StaticRepo/src/js/prism-go.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/wugenqiang/StaticRepo/src/js/prism-matlab.js"></script>
 
 <!-- 实现离线化 -->
 <script>

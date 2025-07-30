@@ -1,10 +1,7 @@
-![icon](https://cdn.jsdelivr.net/gh/wugenqiang/StaticRepo/images/icon.png)
+![logo](_media/logo.png)
 
-## 帅子男一号
+## 帅子
 
-- 互联网是有记忆的，我想留下一些成长的脚印。
+- 一个爱折腾的码农，在这里记录踩过的坑、学到的知识，还有那些深夜debug的瞬间。
 
-
-[GitHub](https://shuaizinanyihao.github.io/blog)
 [开始阅读](README.md)
-
