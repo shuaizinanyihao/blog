@@ -75,13 +75,12 @@
 - [解释器模式(Interpreter Pattern)——自定义语言的实现](DesignPattern/interpreter-pattern.md)
 - [迭代器模式(Iterator Pattern)——遍历聚合对象中的元素](DesignPattern/iterator-pattern.md)
 - [中介者模式(Mediator Pattern)——协调多个对象之间的交互](DesignPattern/mediator-pattern.md)
-- [备忘录模式(Memento Pattern)——撤销功能的实现]()
-- [观察者模式(Observer Pattern)——对象间的联动]()
-- [状态模式(State Pattern)——处理对象的多种状态及其相互转换]()
-- [策略模式(Strategy Pattern)——算法的封装与切换]()
-- [模板方法模式(Template Method Pattern)——复杂流程步骤的设计]()
-- [访问者模式(Visitor Pattern)——操作复杂对象结构]()
-
+- [备忘录模式(Memento Pattern)——撤销功能的实现](https://www.runoob.com/design-pattern/memento-pattern.html)
+- [观察者模式(Observer Pattern)——对象间的联动](https://www.runoob.com/design-pattern/observer-pattern.html)
+- [状态模式(State Pattern)——处理对象的多种状态及其相互转换](https://www.runoob.com/design-pattern/state-pattern.html)
+- [策略模式(Strategy Pattern)——算法的封装与切换](https://www.runoob.com/design-pattern/strategy-pattern.html)
+- [模板方法模式(Template Method Pattern)——复杂流程步骤的设计](https://www.runoob.com/design-pattern/template-method-pattern.html)
+- [访问者模式(Visitor Pattern)——操作复杂对象结构](https://www.runoob.com/design-pattern/visitor-pattern.html)
 
 ## 技术调研
 
